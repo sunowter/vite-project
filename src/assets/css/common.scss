@@ -1,0 +1,32 @@
+
+.pager{
+	padding: 0 18px 18px;
+	margin: 0 auto;
+	overflow-y: auto;
+	box-sizing: border-box;
+	&::-webkit-scrollbar {
+	display: none;
+	width: 0;
+	}
+}
+.item-title{
+	font-size: 15px;
+	font-weight: bold;
+	color: #253859;
+	&::before{
+		content: '';
+		display: inline-block;
+		width: 6px;	
+		height: 6px;
+		background: #67A6FF;
+		margin-right: 5px;
+		border-radius: 15px;
+		position:relative;
+		top: -2px;
+
+	}
+
+}
+		.center {
+			text-align: center;
+		}
